@@ -11,7 +11,6 @@ function fibs(n){
     console.log({arr})
 }
 
-fibs(10)
 
 
 let arrRec = []
@@ -32,5 +31,3 @@ function fibsRec(n){
         return fibN
     }
 }
-
-fibsRec(10)
