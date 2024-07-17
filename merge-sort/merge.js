@@ -22,12 +22,12 @@ function mergeSort(arr){
         let a2 = arr.slice(findMid)
         let b1 = mergeSort(a1) 
         let b2 = mergeSort(a2) 
+        return merge(b1, b2)
         
     }
 
 }
 
-mergeSort([1, 5, 6, 3, 7, 11, 8, 14, 17])
 
 
 function merge(arr1, arr2){
@@ -56,5 +56,6 @@ function merge(arr1, arr2){
     }
 
     console.log(result)
+    return result
 
 }
